@@ -1,0 +1,19 @@
+class PlayerCharacter:
+	def __init__(self, name, age):
+		self.name = name #attributes
+		self.age = age
+
+	def run(self):
+		print('this character can run')
+    return 'done'
+   
+player1 = PlayerCharacter('Cindy', 25)
+player2 = PlayerCharacter('Joe', 26)
+
+# verify player name
+print(player1.name)
+print(player2.name)
+
+# verify player age
+print(player1.age)
+print(player2.age)
